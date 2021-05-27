@@ -16,6 +16,21 @@ task('accounts', 'Prints the list of accounts', async () => {
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
+//  const key = '';
+//  module.exports = {
+//    solidity: '0.8.3',
+//    paths: {
+//      artifacts: './src/artifacts',
+//    },
+//    defaultNetwork: 'hardhat',
+//    networks: {
+//      hardhat: {},
+//      kovan: {
+//        url: 'https://kovan.infura.io/v3/97be263e18b44c9daf8b04eb1dcc05aa',
+//        accounts: [`0x${key}`],
+//      },
+//    },
+//  };
 module.exports = {
   solidity: '0.8.3',
   paths: {
